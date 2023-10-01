@@ -1,0 +1,52 @@
+/* Set the font for the entire document to a serif font and a size of 16px */
+body {
+    font-family: serif;
+    font-size: 16px;
+}
+
+/* Set the font for headings to a sans-serif font and an RGB color of 33, 87, 51 */
+h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+    color: rgb(33, 87, 51);
+}
+
+/* Set the font size for different headings */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 20px;
+}
+
+/* Align the H1 to the center of the document and set its background color */
+h1 {
+    text-align: center;
+    background-color: rgb(75, 133, 94);
+    padding: 10px; /* Add padding for better appearance */
+}
+
+/* Set the border for the horizontal rule */
+hr {
+    border: 3px solid rgb(33, 87, 51);
+}
+
+/* Create an ID selector to center the paragraph containing the address, phone, and eMail */
+#address {
+    text-align: center;
+}
+
+/* Set the list style type of the unordered list to square */
+ul {
+    list-style-type: square;
+}
